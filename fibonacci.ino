@@ -133,7 +133,7 @@ uint32_t colors[TOTAL_PALETTES][4] =
   
 RTC_DS1307 rtc;
 
-boolean on = true;
+boolean on = false;
 
 byte oldHours = 0;
 byte oldMinutes = 0;
